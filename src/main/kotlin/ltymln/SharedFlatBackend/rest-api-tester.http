@@ -1,0 +1,15 @@
+### GET all products
+GET http://localhost:8080/products/all
+Content-Type: application/json
+
+### POST create product
+POST http://localhost:8080/products/create
+Content-Type: application/json
+
+{
+  "name": "Apfel",
+  "price": 2.30,
+  "category": "Frucht"
+}
+
+###
